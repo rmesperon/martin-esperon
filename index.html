@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rodrigo Martín Esperón | Abogado & LegalTech Specialist</title>
+    <!-- Tailwind CSS desde CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased relative">
+
+    <!-- Navegación -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
+            <span class="text-xl font-bold text-slate-900 tracking-tight">RME<span class="text-indigo-600">.</span></span>
+            <div class="space-x-6 text-sm font-medium text-slate-600">
+                <a href="#sobre-mi" class="hover:text-indigo-600 transition">Sobre mí</a>
+                <a href="#experiencia" class="hover:text-indigo-600 transition">Experiencia</a>
+                <a href="#legtech-ia" class="hover:text-indigo-600 transition">LegalTech & IA</a>
+                <a href="#contacto" class="hover:text-indigo-600 transition">Contacto</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="max-w-5xl mx-auto px-6 py-16 md:py-24 grid md:grid-cols-3 gap-12 items-center">
+        <div class="md:col-span-2 space-y-6">
+            <div class="inline-flex items-center gap-2 bg-indigo-50 text-indigo-700 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider">
+                <i data-lucide="scale" class="w-4 h-4"></i> Abogado (UBA) | Esp. en Abogacía del Estado (PTN)
+            </div>
+            <h1 class="text-4xl md:text-5xl font-extrabold text-slate-900 leading-tight">
+                Rodrigo Martín Esperón
+            </h1>
+            <p class="text-lg text-slate-600 leading-relaxed">
+                Más de 14 años de trayectoria en la Administración Pública Nacional y ejercicio independiente de la abogacía. Especialista en control de legalidad, litigios y la aplicación estratégica de Inteligencia Artificial al Derecho.
+            </p>
+            
+            <!-- Matrículas profesionales -->
+            <div class="text-xs font-semibold text-slate-500 flex flex-wrap gap-4 pt-1">
+                <span class="bg-slate-200/80 px-2.5 py-1 rounded">CPACF: T° 134 F° 666</span>
+                <span class="bg-slate-200/80 px-2.5 py-1 rounded">CASI: T° LII F° 166</span>
+            </div>
+
+            <div class="flex flex-wrap gap-4 pt-2">
+                <a href="cv-rodrigo-esperon.pdf" download="CV_Rodrigo_Esperon.pdf" class="bg-indigo-600 text-white px-5 py-3 rounded-lg font-medium hover:bg-indigo-700 transition flex items-center gap-2 shadow-md hover:shadow-lg">
+                    <i data-lucide="download" class="w-4 h-4"></i> Descargar CV
+                </a>
+                <a href="https://wa.me/5491154869538?text=Hola%20Rodrigo,%20vi%20tu%20sitio%20web%20y%20me%20gustar%C3%ADa%20contactarte." target="_blank" class="bg-emerald-600 text-white px-5 py-3 rounded-lg font-medium hover:bg-emerald-700 transition flex items-center gap-2 shadow-md hover:shadow-lg">
+                    <i data-lucide="message-circle" class="w-4 h-4"></i> WhatsApp
+                </a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=martinesperon@gmail.com&su=Contacto%20desde%20tu%20sitio%20web" target="_blank" class="bg-white border border-slate-300 text-slate-700 px-5 py-3 rounded-lg font-medium hover:bg-slate-50 transition flex items-center gap-2">
+                    <i data-lucide="mail" class="w-4 h-4 text-indigo-600"></i> Email
+                </a>
+                <a href="https://www.linkedin.com" target="_blank" class="bg-[#0A66C2] text-white px-5 py-3 rounded-lg font-medium hover:bg-[#084e96] transition flex items-center gap-2 shadow-md hover:shadow-lg">
+                    <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24">
+                        <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.25V10.9H6.46M7.86 6.7a1.63 1.63 0 1 0 0 3.26 1.63 1.63 0 0 0 0-3.26z"/>
+                    </svg>
+                    LinkedIn
+                </a>
+            </div>
+        </div>
+        <div class="flex justify-center">
+            <div class="relative">
+                <div class="absolute -inset-1 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-full blur opacity-30"></div>
+                <img src="foto.png" alt="Rodrigo Martín Esperón" class="relative w-56 h-56 md:w-64 md:h-64 rounded-full object-cover border-4 border-white shadow-xl">
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Mí -->
+    <section id="sobre-mi" class="bg-white py-16 border-y border-slate-200">
+        <div class="max-w-5xl mx-auto px-6">
+            <h2 class="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-2">
+                <i data-lucide="user" class="text-indigo-600"></i> Sobre Mí
+            </h2>
+            <p class="text-slate-600 text-lg leading-relaxed mb-6">
+                Abogado egresado de la Universidad de Buenos Aires (UBA) con orientación en Derecho Penal y Especialista en Abogacía del Estado graduado de la Escuela del Cuerpo de Abogados del Estado (ECAE - Procuración del Tesoro de la Nación).
+            </p>
+            <p class="text-slate-600 text-lg leading-relaxed mb-6">
+                Mi perfil combina el análisis normativo de alta complejidad, la estructuración de proyectos reglamentarios federales y la ejecución presupuestaria en el sector público, con el ejercicio libre de la profesión en fuero Penal, Civil y de Familia.
+            </p>
+            <p class="text-slate-600 text-lg leading-relaxed">
+                Apasionado por la intersección entre el Derecho y la tecnología, aplico herramientas de Inteligencia Artificial (LLMs, Cursor, GitHub y Vibe Coding) para la optimización de procesos jurídicos, el análisis normativo acelerado y la gestión eficiente del conocimiento.
+            </p>
+        </div>
+    </section>
+
+    <!-- Destacado LegalTech & IA -->
+    <section id="legtech-ia" class="py-16 bg-slate-900 text-white">
+        <div class="max-w-5xl mx-auto px-6">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <span class="text-indigo-400 text-xs font-bold uppercase tracking-widest">Innovación & Eficiencia Legal</span>
+                <h2 class="text-3xl font-bold mt-2">LegalTech & Inteligencia Artificial</h2>
+                <p class="text-slate-400 mt-2">Integración de herramientas digitales avanzadas para potenciar el análisis normativo y la gestión de procesos jurídicos.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-slate-800/80 p-6 rounded-xl border border-slate-700/50 hover:border-indigo-500/50 transition">
+                    <div class="w-12 h-12 bg-indigo-500/10 text-indigo-400 rounded-lg flex items-center justify-center mb-4">
+                        <i data-lucide="cpu" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Modelos de Lenguaje (LLMs)</h3>
+                    <p class="text-slate-400 text-sm">Aplicación práctica de ChatGPT, Claude y Gemini para síntesis de legislación comparada, auditoría normativa y asistencia en la redacción de dictámenes técnicos.</p>
+                </div>
+
+                <div class="bg-slate-800/80 p-6 rounded-xl border border-slate-700/50 hover:border-indigo-500/50 transition">
+                    <div class="w-12 h-12 bg-indigo-500/10 text-indigo-400 rounded-lg flex items-center justify-center mb-4">
+                        <i data-lucide="code" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Vibe Coding & Productivity</h3>
+                    <p class="text-slate-400 text-sm">Uso de Cursor y GitHub para estructurar repositorios de información jurídica, automatizar plantillas documentales y desarrollar herramientas web personalizadas.</p>
+                </div>
+
+                <div class="bg-slate-800/80 p-6 rounded-xl border border-slate-700/50 hover:border-indigo-500/50 transition">
+                    <div class="w-12 h-12 bg-indigo-500/10 text-indigo-400 rounded-lg flex items-center justify-center mb-4">
+                        <i data-lucide="file-check" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="font-bold text-lg mb-2">Sistemas Estatales & GDE</h3>
+                    <p class="text-slate-400 text-sm">Dominio avanzado de Gestión Documental Electrónica (GDE), expedientes digitales, plataformas de notificaciones judiciales electrónicas y sistemas de fiscalización.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiencia Laboral -->
+    <section id="experiencia" class="py-16 bg-white">
+        <div class="max-w-5xl mx-auto px-6">
+            <h2 class="text-2xl font-bold text-slate-900 mb-10 flex items-center gap-2">
+                <i data-lucide="briefcase" class="text-indigo-600"></i> Experiencia Laboral
+            </h2>
+
+            <div class="space-y-8 border-l-2 border-slate-200 pl-6 ml-2">
+                <!-- Puesto 1 -->
+                <div class="relative">
+                    <div class="absolute -left-[31px] top-1.5 w-4 h-4 rounded-full bg-indigo-600 border-4 border-white"></div>
+                    <span class="text-xs font-semibold text-indigo-600 uppercase">2021 - Actualidad</span>
+                    <h3 class="text-xl font-bold text-slate-900">Asesor Legal</h3>
+                    <p class="text-sm text-slate-500 font-medium">Subsecretaría de Economías Regionales – Secretaría de Agricultura, Ganadería y Pesca (Min. de Economía)</p>
+                    <ul class="mt-3 text-slate-600 text-sm space-y-2 list-disc list-inside">
+                        <li>Diseño y estructuración legal de 5 programas federales de impacto productivo (Agropymes, Foefagro, Profas, Probiaar, Mujeres Produciendo Alimentos).</li>
+                        <li>Control de legalidad en la ejecución presupuestaria y rendición de cuentas de más de $6.000 millones.</li>
+                        <li>Asesoramiento para la puesta en marcha del Registro de MiPyMEs Agroalimentarias.</li>
+                        <li>Elaboración de dictámenes jurídicos, convenios interinstitucionales y respuestas a oficios judiciales.</li>
+                    </ul>
+                </div>
+
+                <!-- Puesto 2 -->
+                <div class="relative">
+                    <div class="absolute -left-[31px] top-1.5 w-4 h-4 rounded-full bg-slate-300 border-4 border-white"></div>
+                    <span class="text-xs font-semibold text-slate-500 uppercase">2020 - Actualidad</span>
+                    <h3 class="text-xl font-bold text-slate-900">Abogado Titular</h3>
+                    <p class="text-sm text-slate-500 font-medium">Estudio Jurídico Propio</p>
+                    <ul class="mt-3 text-slate-600 text-sm space-y-2 list-disc list-inside">
+                        <li>Representación y litigio integral en CABA y Provincia de Buenos Aires (Fuero Penal, Penal Económico, Civil y Familia).</li>
+                        <li>Asesoramiento legal preventivo, negociación extrajudicial y tramitación de sucesiones.</li>
+                    </ul>
+                </div>
+
+                <!-- Puesto 3 -->
+                <div class="relative">
+                    <div class="absolute -left-[31px] top-1.5 w-4 h-4 rounded-full bg-slate-300 border-4 border-white"></div>
+                    <span class="text-xs font-semibold text-slate-500 uppercase">2014 - 2021</span>
+                    <h3 class="text-xl font-bold text-slate-900">Abogado - Área de Jurídicos y Coordinación de Granos</h3>
+                    <p class="text-sm text-slate-500 font-medium">Dirección de Fiscalización Comercial Agropecuaria (SAGyP)</p>
+                    <ul class="mt-3 text-slate-600 text-sm space-y-2 list-disc list-inside">
+                        <li>Coordinación de equipos legales para la unificación de criterios sancionatorios y de fiscalización a nivel federal.</li>
+                        <li>Diseño e implementación de marcos normativos comerciales y supervisión jurídica de programas de monitoreo.</li>
+                    </ul>
+                </div>
+
+                <!-- Puesto 4 -->
+                <div class="relative">
+                    <div class="absolute -left-[31px] top-1.5 w-4 h-4 rounded-full bg-slate-300 border-4 border-white"></div>
+                    <span class="text-xs font-semibold text-slate-500 uppercase">2011 - 2014</span>
+                    <h3 class="text-xl font-bold text-slate-900">Asistente Administrativo</h3>
+                    <p class="text-sm text-slate-500 font-medium">Proyecto PROCAL III – Secretaría de Agricultura, Ganadería y Pesca</p>
+                    <ul class="mt-3 text-slate-600 text-sm space-y-2 list-disc list-inside">
+                        <li>Soporte técnico, operativo y administrativo en programas de asistencia integral para agroalimentos.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Educación y Herramientas -->
+    <section class="py-16 bg-slate-50 border-t border-slate-200">
+        <div class="max-w-5xl mx-auto px-6 grid md:grid-cols-2 gap-12">
+            <div>
+                <h2 class="text-xl font-bold text-slate-900 mb-6 flex items-center gap-2">
+                    <i data-lucide="graduation-cap" class="text-indigo-600"></i> Formación Académica
+                </h2>
+                <div class="space-y-4">
+                    <div class="bg-white p-5 rounded-lg border border-slate-200 shadow-sm">
+                        <h3 class="font-bold text-slate-900">Especialización en Abogacía del Estado (ABOGAR)</h3>
+                        <p class="text-indigo-600 font-medium text-sm">Escuela del Cuerpo de Abogados del Estado (ECAE) - PTN</p>
+                        <p class="text-slate-500 text-xs mt-1">Graduado (2022) | 380 hs cátedra</p>
+                    </div>
+                    <div class="bg-white p-5 rounded-lg border border-slate-200 shadow-sm">
+                        <h3 class="font-bold text-slate-900">Abogado (Orientación Penal)</h3>
+                        <p class="text-indigo-600 font-medium text-sm">Universidad de Buenos Aires (UBA)</p>
+                        <p class="text-slate-500 text-xs mt-1">Graduado (2017)</p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <h2 class="text-xl font-bold text-slate-900 mb-6 flex items-center gap-2">
+                    <i data-lucide="wrench" class="text-indigo-600"></i> Herramientas de Trabajo & Tech
+                </h2>
+                <div class="space-y-4">
+                    <div>
+                        <span class="text-xs font-bold text-indigo-600 uppercase tracking-wider block mb-2">LegalTech & Inteligencia Artificial</span>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-indigo-50 border border-indigo-200 text-indigo-700 px-3 py-1.5 rounded-md text-xs font-semibold">LLMs (ChatGPT, Claude, Gemini)</span>
+                            <span class="bg-indigo-50 border border-indigo-200 text-indigo-700 px-3 py-1.5 rounded-md text-xs font-semibold">Vibe Coding</span>
+                            <span class="bg-indigo-50 border border-indigo-200 text-indigo-700 px-3 py-1.5 rounded-md text-xs font-semibold">Cursor IDE</span>
+                            <span class="bg-indigo-50 border border-indigo-200 text-indigo-700 px-3 py-1.5 rounded-md text-xs font-semibold">GitHub</span>
+                        </div>
+                    </div>
+
+                    <div>
+                        <span class="text-xs font-bold text-slate-400 uppercase tracking-wider block mb-2">Sistemas de Gestión Pública & Judicial</span>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-white border border-slate-300 text-slate-700 px-3 py-1.5 rounded-md text-xs font-medium">GDE (Gestión Documental Electrónica)</span>
+                            <span class="bg-white border border-slate-300 text-slate-700 px-3 py-1.5 rounded-md text-xs font-medium">Notificaciones Electrónicas PJN / PBA</span>
+                            <span class="bg-white border border-slate-300 text-slate-700 px-3 py-1.5 rounded-md text-xs font-medium">Sistemas de Fiscalización</span>
+                        </div>
+                    </div>
+
+                    <div>
+                        <span class="text-xs font-bold text-slate-400 uppercase tracking-wider block mb-2">Competencias & Idiomas</span>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-white border border-slate-300 text-slate-700 px-3 py-1.5 rounded-md text-xs font-medium">Dictámenes & Control de Legalidad</span>
+                            <span class="bg-white border border-slate-300 text-slate-700 px-3 py-1.5 rounded-md text-xs font-medium">Análisis Regulatorio</span>
+                            <span class="bg-white border border-slate-300 text-slate-700 px-3 py-1.5 rounded-md text-xs font-medium">Español (Nativo)</span>
+                            <span class="bg-white border border-slate-300 text-slate-700 px-3 py-1.5 rounded-md text-xs font-medium">Inglés (Intermedio)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contacto -->
+    <footer id="contacto" class="bg-white py-12 border-t border-slate-200 text-center">
+        <div class="max-w-5xl mx-auto px-6 space-y-4">
+            <h2 class="text-2xl font-bold text-slate-900">¿Hablamos?</h2>
+            <p class="text-slate-600 text-sm">Disponible para asesoramiento jurídico, proyectos de modernización del Estado y consultoría LegalTech.</p>
+            <div class="flex justify-center items-center gap-6 pt-4 text-slate-600 text-sm flex-wrap">
+                <span class="flex items-center gap-2"><i data-lucide="phone" class="w-4 h-4 text-indigo-600"></i> +54 11 5486-9538</span>
+                <span class="flex items-center gap-2"><i data-lucide="mail" class="w-4 h-4 text-indigo-600"></i> martinesperon@gmail.com</span>
+                <span class="flex items-center gap-2"><i data-lucide="map-pin" class="w-4 h-4 text-indigo-600"></i> Buenos Aires, Argentina</span>
+            </div>
+            <p class="text-xs text-slate-400 pt-8">© Rodrigo Martín Esperón. Creado con asistencia de IA & GitHub Pages.</p>
+        </div>
+    </footer>
+
+    <!-- WIDGET DEL CHATBOT CON IA -->
+    <div class="fixed bottom-6 right-6 z-50">
+        <button id="chat-toggle" onclick="toggleChat()" class="bg-indigo-600 text-white p-4 rounded-full shadow-2xl hover:bg-indigo-700 transition flex items-center gap-2 font-medium">
+            <i data-lucide="bot" class="w-6 h-6"></i>
+            <span class="hidden md:inline text-sm">Asistente de Rodrigo</span>
+        </button>
+
+        <div id="chat-box" class="hidden absolute bottom-16 right-0 w-80 md:w-96 bg-white rounded-2xl shadow-2xl border border-slate-200 overflow-hidden flex flex-col h-[420px]">
+            <div class="bg-indigo-600 text-white p-4 flex justify-between items-center">
+                <div class="flex items-center gap-3">
+                    <div class="w-8 h-8 rounded-full bg-indigo-500 flex items-center justify-center">
+                        <i data-lucide="sparkles" class="w-4 h-4 text-white"></i>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-sm">Asistente Virtual de Rodrigo</h4>
+                        <p class="text-[10px] text-indigo-200">Entrenado con su perfil profesional</p>
+                    </div>
+                </div>
+                <button onclick="toggleChat()" class="text-indigo-200 hover:text-white font-bold">✕</button>
+            </div>
+
+            <div id="chat-messages" class="p-4 flex-1 overflow-y-auto space-y-3 bg-slate-50 text-xs">
+                <div class="bg-indigo-100 text-indigo-900 p-3 rounded-xl max-w-[85%]">
+                    👋 ¡Hola! Soy el asistente virtual de Rodrigo Esperón. Podés preguntarme sobre su experiencia en el sector público, su estudio jurídico o su manejo de LegalTech.
+                </div>
+            </div>
+
+            <div class="p-2 border-t border-slate-200 bg-white flex flex-wrap gap-1">
+                <button onclick="askBot('experiencia')" class="bg-slate-100 hover:bg-indigo-50 text-slate-700 hover:text-indigo-600 border border-slate-200 text-[11px] px-2 py-1 rounded-md transition">💼 Experiencia</button>
+                <button onclick="askBot('gde')" class="bg-slate-100 hover:bg-indigo-50 text-slate-700 hover:text-indigo-600 border border-slate-200 text-[11px] px-2 py-1 rounded-md transition">🏛️ Sector Público / GDE</button>
+                <button onclick="askBot('legaltech')" class="bg-slate-100 hover:bg-indigo-50 text-slate-700 hover:text-indigo-600 border border-slate-200 text-[11px] px-2 py-1 rounded-md transition">🤖 LegalTech & IA</button>
+                <button onclick="askBot('contacto')" class="bg-slate-100 hover:bg-indigo-50 text-slate-700 hover:text-indigo-600 border border-slate-200 text-[11px] px-2 py-1 rounded-md transition">📩 Contacto</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script de Funcionalidad del Chatbot -->
+    <script>
+        lucide.createIcons();
+
+        function toggleChat() {
+            const chatBox = document.getElementById('chat-box');
+            chatBox.classList.toggle('hidden');
+        }
+
+        const responses = {
+            experiencia: "Rodrigo suma más de 14 años de trayectoria. Es asesor legal en el Ministerio de Economía (redacción de programas federales y ejecuciones por +$6.000M) y titular de su estudio jurídico en fuero penal, civil y familia.",
+            gde: "Es Especialista en Abogacía del Estado (ECAE - PTN). Posee un dominio experto de GDE, control de legalidad, dictámenes reglamentarios y unificación de criterios sancionatorios.",
+            legaltech: "Aplica modelos de IA (ChatGPT, Claude), Cursor y GitHub para análisis normativo, automatización de documentos jurídicos y desarrollo de herramientas de productividad mediante Vibe Coding.",
+            contacto: "Podés llamarlo o escribirle por WhatsApp al +54 11 5486-9538, o por correo electrónico a martinesperon@gmail.com. Cuenta con matrícula activa en CPACF y CASI."
+        };
+
+        function askBot(topic) {
+            const messagesContainer = document.getElementById('chat-messages');
+            
+            let userText = "";
+            if(topic === 'experiencia') userText = "¿Cuál es su trayectoria laboral?";
+            if(topic === 'gde') userText = "¿Qué experiencia tiene en Abogacía del Estado y GDE?";
+            if(topic === 'legaltech') userText = "¿Cómo aplica la Inteligencia Artificial y LegalTech?";
+            if(topic === 'contacto') userText = "¿Cuáles son sus datos de contacto y matrícula?";
+
+            const userMsg = document.createElement('div');
+            userMsg.className = 'bg-indigo-600 text-white p-3 rounded-xl max-w-[85%] ml-auto text-right shadow-sm';
+            userMsg.innerText = userText;
+            messagesContainer.appendChild(userMsg);
+
+            setTimeout(() => {
+                const botMsg = document.createElement('div');
+                botMsg.className = 'bg-white text-slate-800 p-3 rounded-xl max-w-[85%] border border-slate-200 shadow-sm';
+                botMsg.innerText = responses[topic];
+                messagesContainer.appendChild(botMsg);
+                messagesContainer.scrollTop = messagesContainer.scrollHeight;
+            }, 300);
+
+            messagesContainer.scrollTop = messagesContainer.scrollHeight;
+        }
+    </script>
+</body>
+</html>
